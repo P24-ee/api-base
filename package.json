@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/P24-ee/api-base/issues"
   },
-  "homepage": "https://github.com/P24-ee/api-base#readme"
+  "homepage": "https://github.com/P24-ee/api-base#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "polkadot": "^1.0.0",
+    "p24-api-db": "file:../p24-api-db",
+    "p24-api-user": "file:../p24-api-user"
+  }
 }
