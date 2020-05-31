@@ -29,6 +29,7 @@ const Server = () => {
             const app = App(req);
             const router = app.getRouter();
             if (typeof callback === "function") {
+                // add routes
                 callback(router);
             }
             const response = await app.getResponse();
